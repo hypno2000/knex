@@ -122,7 +122,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// Raw
 	// -------
 	'use strict';
@@ -901,7 +901,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// WebSQL
 	// -------
 	'use strict';
@@ -1500,7 +1500,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// Transaction
 	// -------
 	'use strict';
@@ -1764,7 +1764,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// Builder
 	// -------
 	'use strict';
@@ -2579,7 +2579,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// Query Compiler
 	// -------
 	'use strict';
@@ -3143,7 +3143,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// TableBuilder
 
 	// Takes the function passed to the "createTable" or "table/editTable"
@@ -3351,7 +3351,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// Table Compiler
 	// -------
 	'use strict';
@@ -3621,7 +3621,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// Column Compiler
 	// Used for designating column definitions
 	// during the table "create" / "alter" statements.
@@ -3902,7 +3902,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// FunctionHelper
 	// -------
 	'use strict';
@@ -3921,7 +3921,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// All properties we can use to start a query chain
 	// from the `knex` object, e.g. `knex.select('*').from(...`
 	'use strict';
@@ -4137,7 +4137,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// MariaSQL Client
 	// -------
 	'use strict';
@@ -4289,7 +4289,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// MySQL Client
 	// -------
 	'use strict';
@@ -4431,7 +4431,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// MySQL2 Client
 	// -------
 	'use strict';
@@ -4892,7 +4892,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// SQLite3
 	// -------
 	'use strict';
@@ -5042,7 +5042,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// Oracle Client
 	// -------
 	'use strict';
@@ -6359,7 +6359,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	/**
 	 * This is the web browser implementation of `debug()`.
 	 *
@@ -7289,7 +7289,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// MySQL Query Compiler
 	// ------
 	'use strict';
@@ -7364,7 +7364,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 72 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// MySQL Schema Compiler
 	// -------
 	'use strict';
@@ -7413,7 +7413,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// MySQL Table Builder & Compiler
 	// -------
 	'use strict';
@@ -7600,7 +7600,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// MySQL Column Compiler
 	// -------
 	'use strict';
@@ -7912,7 +7912,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 79 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// Oracle Query Builder & Compiler
 	// ------
 	'use strict';
@@ -8128,7 +8128,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// Oracle Schema Compiler
 	// -------
 	'use strict';
@@ -8667,7 +8667,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 87 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// PostgreSQL Query Builder & Compiler
 	// ------
 	'use strict';
@@ -8749,7 +8749,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      sql += ' and table_schema = ?';
 	      bindings.push(this.single.schema);
 	    } else {
-	      sql += ' and table_schema = current_schema';
+	      sql += ' and table_schema = current_schema()';
 	    }
 
 	    return {
@@ -8778,7 +8778,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// PostgreSQL Column Compiler
 	// -------
 
@@ -8951,7 +8951,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    sql += ' and table_schema = ?';
 	    bindings.push(this.schema);
 	  } else {
-	    sql += ' and table_schema = current_schema';
+	    sql += ' and table_schema = current_schema()';
 	  }
 
 	  this.pushQuery({
@@ -8972,7 +8972,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    sql += ' and table_schema = ?';
 	    bindings.push(this.schema);
 	  } else {
-	    sql += ' and table_schema = current_schema';
+	    sql += ' and table_schema = current_schema()';
 	  }
 
 	  this.pushQuery({
@@ -9032,7 +9032,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 91 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// SQLite3 Query Builder & Compiler
 
 	'use strict';
@@ -9157,7 +9157,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// SQLite3: Column Builder & Compiler
 	// -------
 	'use strict';
@@ -9355,7 +9355,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// SQLite3_DDL
 	//
 	// All of the SQLite3 specific DDL helpers for renaming/dropping
@@ -11512,7 +11512,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	/**
 	 * This is the common logic for both the Node.js and web browser
 	 * implementations of `debug()`.
@@ -16476,7 +16476,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	/**
 	 * isArray
 	 */
@@ -17280,7 +17280,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      /* This will not work in older browsers.
 	       * See https://developer.mozilla.org/en-US/docs/Web/API/window.crypto.getRandomValues
 	       */
-	    
+
 	      _crypto.getRandomValues(bytes);
 	      return bytes;
 	    }
@@ -19489,7 +19489,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 210 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	/**
 	 * A JavaScript implementation of the Secure Hash Algorithm, SHA-256, as defined
 	 * in FIPS 180-2
